@@ -16,5 +16,9 @@ terraform.tfstate*
 **/.terraform
 
 # Ignore Ansible configuration and inventory files
-docker_boogaloo_numba_twoo/ansible.cfg
-docker_boogaloo_numba_twoo/inventory
+/home/administrator/Documents/Pete4DevOps/ProjectScenario/Team Peterson/Docker&Ansible_files/ansible.cfg
+/home/administrator/Documents/Pete4DevOps/ProjectScenario/Team Peterson/Docker&Ansible_files/inventory
+
+#ignoring folder i improperly downloaded
+/home/administrator/Documents/Pete4DevOps/ProjectScenario/Team Peterson/Docker&Ansible_files/Combinator/tolbert
+/home/administrator/Documents/Pete4DevOps/ProjectScenario/Team Peterson/Docker&Ansible_files/Combinator/vu
