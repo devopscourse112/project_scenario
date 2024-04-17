@@ -1,0 +1,70 @@
+#making the nodes attatch to my bootdisk
+
+resource "google_persistent_disk" "gke_pd" {
+  name         = "peteys-gke-pv"  # Descriptive name for the PV
+  disk_name    = google_compute_disk.pd_storage.name
+  type         = "pd-standard"
+  access_modes = ["ReadWriteOnce"]  # Adjust based on your access needs
+  zone          = var.region
+}
+
+resource "google_persistent_volume_claim" "gke_pvc" {
+  name         = "peteys-gke-pvc"  # Descriptive name for the PVC
+  access_modes = ["ReadWriteOnce"]  # Match PV access mode
+  storage_class_name = ""  # Optional: Use a storage class for advanced options
+  resources {
+    requests = {
+      storage = "5Gi"  # Adjust the requested storage size
+    }
+  }
+}
+
+  volumes = [
+    {
+      name = "gke-pd"
+      persistent_volume_claim {
+        claim_name = google_persistent_volume_claim.gke_pvc.name
+      }
+    }
+  ]
+  
+  resource "google_container_node_pool" "primary_nodes" {
+  name       = google_container_cluster.primary.name
+  location   = var.region
+  cluster    = google_container_cluster.primary.name
+
+  version    = data.google_container_engine_versions.gke_version.release_channel_latest_version["STABLE"]
+  node_count = var.gke_num_nodes
+
+  node_config {
+    oauth_scopes = [
+      "https://www.googleapis.com/auth/logging.write",
+      "https://www.googleapis.com/auth/monitoring",
+    ]
+
+    labels = {
+      env = var.project_id
+    }
+
+    preemptible  = true
+    machine_type = "e2-micro" #"n1-standard-1" was the original size
+    tags         = ["gke-node", "${var.project_id}-gke"]
+    metadata = {
+      disable-legacy-endpoints = "true"
+      user-data = base64encode(file("gke_user_data.sh"))
+    }
+
+    // Define volumes here
+    volumes = [
+      {
+        name = "gke-pd"
+        persistent_volume_claim {
+          claim_name = google_persistent_volume_claim.gke_pvc.name
+        }
+      }
+    ]
+  }
+}
+
+
+

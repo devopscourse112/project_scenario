@@ -1,0 +1,1000 @@
+  982  cd /home/administrator/Documents/Pete4DevOps/01ticketingsys/02ticketingsys
+  983  ls
+  984  ansible-playbook maldonado_playbook.yml
+  985  ls
+  986  nano maldonado_playbook.
+  987  nano maldonado_playbook.yml
+  988  ls 
+  989  nano maldonado_playbook.yml
+  990  ansible-playbook maldonado_playbook.yml
+  991  clear
+  992  cd]
+  993  cd
+  994  clear
+  995  apt update
+  996  sudo apt update
+  997  apt install graphviz -y
+  998  sudo su
+  999  exit
+ 1000  clear
+ 1001  sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
+ 1002  clear
+ 1003  wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg > /dev/null
+ 1004  gpg --no-default-keyring --keyring /usr/share/keyrings/hashicorp-archive-keyring.gpg --fingerprint
+ 1005  echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] \
+ 1006  https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+ 1007  sudo apt update
+ 1008  sudo apt-get install terraform
+ 1009  terraform -help
+ 1010  terraform -help plan
+ 1011  touch ~/.bashrc
+ 1012  terraform -install-autocomplete
+ 1013  clear
+ 1014  restart -h
+ 1015  restart --help
+ 1016  nano main.tf
+ 1017  ls
+ 1018  pwd
+ 1019  ls
+ 1020  cd /home/administrator/Documents/class-updates-main/Project_Resources/main.tf
+ 1021  cd /home/administrator/Documents/class-updates-main/Project_Resources/
+ 1022  ls
+ 1023  terraform init
+ 1024  terraform plan
+ 1025  docker ps
+ 1026  sudo docker ps
+ 1027  docker stop 3 a
+ 1028  sudo docker stop 3 a
+ 1029  sudo docker stop 3b7
+ 1030  sudo docker stop ac3
+ 1031  docker ps
+ 1032  sudo docker ps
+ 1033  sudo docker -h
+ 1034  sudo docker kill
+ 1035  sudo docker kill -h
+ 1036  sudo docker rmi
+ 1037  sudo docker --help
+ 1038  sudo docker ps -a
+ 1039  sudo docker rmi 68f 2b8 be0 ecd 3a4 08f 938 47f 3b7 ac3 596
+ 1040  sudo docker rm 68f 2b8 be0 ecd 3a4 08f 938 47f 3b7 ac3 596
+ 1041  sudo docker ps -a
+ 1042  sudo docker ps images
+ 1043  sudo docker ps image
+ 1044  sudo docker ps image -a
+ 1045  terraform plan
+ 1046  sudo terraform plan
+ 1047  sudo terraform init
+ 1048  sudo terraform apply
+ 1049  sudo su
+ 1050  terraform state
+ 1051  terraform state list
+ 1052  terraform apply 
+ 1053  sudo terraform apply 
+ 1054  sudo docker ps -a
+ 1055  sudo terraform destroy
+ 1056  docker ps -a
+ 1057  sudo docker ps -a
+ 1058  clear
+ 1059  terraform destroy 
+ 1060  sudo terraform destroy
+ 1061  pwd
+ 1062  clear
+ 1063  pwd
+ 1064  cd
+ 1065  pwd
+ 1066  exit
+ 1067  pwd
+ 1068  ls
+ 1069  curl https://sdk.cloud.google.com | bash
+ 1070  pwd
+ 1071  ls
+ 1072  [200~gcloud --version
+ 1073  gcloud --version
+ 1074  clear
+ 1075  pwd
+ 1076  ls
+ 1077  gcloud auth login
+ 1078  [200~gcloud config set project YOUR_PROJECT_ID
+ 1079  ~gcloud config set project my-first-terraform-practice
+ 1080  gcloud config set project my-first-terraform-practice
+ 1081  gcloud auth list /
+ 1082  gcloud config list project
+ 1083  gcloud auth list
+ 1084  gcloud config list project
+ 1085  ls
+ 1086  cd /home/administrator/Documents/Pete4DevOps/Terraworkdir/trynumba01
+ 1087  ls
+ 1088  terraform plan
+ 1089  terraform init
+ 1090  terraform plan 
+ 1091  terraform init
+ 1092  terraform plan 
+ 1093  [200~gcloud auth application-default login
+ 1094  ~gcloud auth application-default login
+ 1095  gcloud auth application-default login
+ 1096  terraform init
+ 1097  terraform plan 
+ 1098  terraform apply 
+ 1099  [200~gcloud services enable --project=YOUR_PROJECT_ID --async $(gcloud services list --available --format="value(config.name)")
+ 1100  gcloud services enable --my-first-terraform-practice --async $(gcloud services list --available --format="value(config.name)")
+ 1101  gcloud services enable --my- first-terraform-practice --async $(gcloud services list --available --format="value(config.name)")
+ 1102  exit
+ 1103  ls -a
+ 1104  cd .
+ 1105  ls
+ 1106  ls -a
+ 1107  aws configure
+ 1108  export AWS_ACCESS_KEY_ID="AKIAQ3EGRWULXAWBM77P"
+ 1109  export AWS_SECRET_ACCESS_KEY="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"
+ 1110  cd /home/administrator/Documents/Pete4DevOps/Terraworkdir/trynumba01/nowgotoaws
+ 1111  terraform plan
+ 1112  terraform init
+ 1113  terraform plan
+ 1114  terraform apply
+ 1115  terraform init
+ 1116  terraform plan
+ 1117  terraform apply
+ 1118  pwd
+ 1119  ls
+ 1120  ssh -i /home/administrator/themkeys/theAWSbasics.pem ubuntu@3.85.92.107
+ 1121  terraform destroy
+ 1122  terraform init
+ 1123  terraform plan
+ 1124  terraform apply 
+ 1125  terraform destroy
+ 1126  terraform init
+ 1127  terraform plan
+ 1128  terraform init
+ 1129  terraform apply 
+ 1130  terraform destroy
+ 1131  terraform init
+ 1132  terraform plan
+ 1133  terraform apply 
+ 1134  terraform destroy
+ 1135  terraform plan
+ 1136  terraform apply 
+ 1137  terraform destroy
+ 1138  terraform apply 
+ 1139  terraform destroy
+ 1140  pwd
+ 1141  ls
+ 1142  cd /home/administrator/Documents/Pete4DevOps/Terraworkdir/trynumba01
+ 1143  ls
+ 1144  terraform init
+ 1145  terraform plan 
+ 1146  terraform apply 
+ 1147  terraform destroy 
+ 1148  terraform init 
+ 1149  terraform plan
+ 1150  gcloud auth application-default login
+ 1151  terraform init 
+ 1152  terraform plan
+ 1153  terraform init 
+ 1154  terraform plan
+ 1155  terraform apply 
+ 1156  terraform init 
+ 1157  terraform plan
+ 1158  terraform apply 
+ 1159  chmod +x setup_aws_credentials.sh
+ 1160  ./setup_aws_credentials.sh
+ 1161  pwd
+ 1162  ls
+ 1163  terraform init
+ 1164  terraform plan 
+ 1165  https://058264237335.signin.aws.amazon.com/console
+ 1166  terraform init
+ 1167  terraform plan 
+ 1168  terraform plan /home/administrator/Documents/Pete4DevOps/Terraworkdir/trynumba01/aws.tf
+ 1169  terraform apply -var-file=aws.tf
+ 1170  terraform init
+ 1171  terraform plan /home/administrator/Documents/Pete4DevOps/Terraworkdir/trynumba01
+ 1172  terraform plan /home/administrator/Documents/Pete4DevOps/Terraworkdir/trynumba01/aws.tf
+ 1173  terraform plan /home/administrator/Documents/Pete4DevOps/Terraworkdir/trynumba01
+ 1174  terraform plan -chdir=/home/administrator/Documents/Pete4DevOps/Terraworkdir/trynumba01
+ 1175  terraform plan -chdir=/home/administrator/Documents/Pete4DevOps/Terraworkdir/trynumba01/aws.tf
+ 1176  terraform plan
+ 1177  ls
+ 1178  cd we_combine
+ 1179  ls
+ 1180  terraform init
+ 1181  terraform plan
+ 1182  ./setup_aws_credentials.sh
+ 1183  /home/administrator/Documents/Pete4DevOps/Terraworkdir/trynumba01/setup_aws_credentials.sh
+ 1184  cd /home/administrator/Documents/Pete4DevOps/Terraworkdir/trynumba01/nowgotoaws
+ 1185  ls
+ 1186  terraform init 
+ 1187  terraform plan
+ 1188  terraform init 
+ 1189  terraform plan
+ 1190  aws configure
+ 1191  terraform destroy
+ 1192  cd
+ 1193  cd /home/administrator/Documents/Pete4DevOps/Terraworkdir/trynumba01/
+ 1194  terraform destroy
+ 1195  pwd
+ 1196  ls
+ 1197  git -h
+ 1198  git log
+ 1199  celar
+ 1200  clear
+ 1201  ls
+ 1202  ls
+ 1203  docker ps
+ 1204  sudo docker ps
+ 1205  sudo docker ps -a
+ 1206  terraform init 
+ 1207  terraform plan 
+ 1208  terraform apply
+ 1209  terraform plan 
+ 1210  export AWS_SHARED_CREDENTIALS_FILE="/home/administrator/themkeys/theAWSbasics.pem"
+ 1211  clear
+ 1212  terraform plan 
+ 1213  │   terraform init -upgrade
+ 1214  terraform init -upgrade
+ 1215  terraform plan 
+ 1216  terraform plan
+ 1217  export AWS_SHARED_CREDENTIALS_FILE="/home/administrator/themkeys/cooldude_accessKeys(1).csv"
+ 1218  terraform plan
+ 1219  pwd
+ 1220  ls
+ 1221  terraform init -upgrade
+ 1222  export AWS_SHARED_CREDENTIALS_FILE="/home/administrator/themkeys/cooldude_accessKeys(1).csv"
+ 1223  terraform init -upgrade
+ 1224  export AWS_SHARED_CREDENTIALS_FILE="/home/administrator/themkeys/cooldude_accessKeys(1).csv"
+ 1225  terraform plan
+ 1226  export AWS_ACCESS_KEY_ID="AKIAQ3EGRWULXAWBM77P"
+ 1227  export AWS_SECRET_ACCESS_KEY="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"
+ 1228  terraform plan
+ 1229  terraform apply 
+ 1230  terraform destroy 
+ 1231  terraform plan
+ 1232  terraform init -upgrade 
+ 1233  terraform plan
+ 1234  terraform apply 
+ 1235  terraform destroy 
+ 1236  terraform apply 
+ 1237  aws ec2 describe-instances --query "Reservations[*].Instances[*].InstanceId"
+ 1238  terraform init -upgrade 
+ 1239  terraform plan
+ 1240  terraform apply 
+ 1241  ssh -i /home/administrator/Downloads/tyui.pem ubuntu@3.80.47.39
+ 1242  terraform destroy 
+ 1243  terraform init -upgrade 
+ 1244  terraform plan
+ 1245  terraform apply
+ 1246  terraform init -upgrade 
+ 1247  terraform destroy
+ 1248  terraform apply
+ 1249  terraform destroy
+ 1250  terraform apply
+ 1251  terraform apply -lock=false
+ 1252  terraform destroy -lock=false
+ 1253  terraform apply -lock=false
+ 1254  ssh -i /home/administrator/Downloads/tyui.pem ubuntu@54.208.48.145
+ 1255  cd
+ 1256  chmod 400 /home/administrator/Downloads/tyui.pem
+ 1257  ssh -i /home/administrator/Downloads/tyui.pem ubuntu@54.208.48.145
+ 1258  terraform apply
+ 1259  cd
+ 1260  sudo apt install awscli
+ 1261  pwd
+ 1262  ls
+ 1263  aws ec2 describe-instances --query "Reservations[*].Instances[*].InstanceId"
+ 1264  aws configure
+ 1265  aws ec2 describe-instances --query "Reservations[*].Instances[*].InstanceId"
+ 1266  [200~aws ec2 describe-instances --instance-ids i-0ab7a48c7e6989094 --query "Reservations[*].Instances[*].KeyName" --output text
+ 1267  ~aws ec2 describe-instances --instance-ids i-0ab7a48c7e6989094 --query "Reservations[*].Instances[*].KeyName" --output text
+ 1268  aws ec2 describe-instances --instance-ids i-0ab7a48c7e6989094 --query "Reservations[*].Instances[*].KeyName" --output text
+ 1269  sudo apt install awscli
+ 1270  aws ec2 describe-instances --instance-ids i-0ab7a48c7e6989094 --query "Reservations[*].Instances[*].KeyName" --output text
+ 1271  ls
+ 1272  docker compose -h
+ 1273  terraform destroy
+ 1274  terraform init -upgrade 
+ 1275  terraform destroy
+ 1276  terraform apply 
+ 1277  terraform apply -lock=false
+ 1278  terraform destroy -lock=false
+ 1279  clear
+ 1280  whoami
+ 1281  ls
+ 1282  pwd
+ 1283  terraform apply -lock=false
+ 1284  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@54.86.67.221
+ 1285  pwd
+ 1286  ls
+ 1287  gcloud auth login
+ 1288  terraform init
+ 1289  terraform plan 
+ 1290  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@54.208.48.145
+ 1291  terraform apply
+ 1292  terraform plan 
+ 1293  terraform apply
+ 1294  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@34.68.111.53
+ 1295  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@34.68.111.53 -y
+ 1296  chmod 600 /home/administrator/themkeys/tyui.pem
+ 1297  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@34.68.111.53 -y
+ 1298  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@34.68.111.53
+ 1299  terraform destroy
+ 1300  terraform init -upgrade
+ 1301  terraform apply 
+ 1302  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@35.222.81.180
+ 1303  ssh-keygen -y -f /home/administrator/themkeys/tyui.pem > /home/administrator/themkeys/tyui.pub
+ 1304  terraform apply 
+ 1305  ssh -i /home/administrator/themkeys/tyui.pub ubuntu@35.222.81.180
+ 1306  chmod 600 /home/administrator/themkeys/tyui.pem
+ 1307  cd /var/log/auth.log
+ 1308  ssh -i /home/administrator/themkeys/tyui.pub ubuntu@35.222.81.180
+ 1309  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@35.222.81.180
+ 1310  terraform apply 
+ 1311  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@35.222.81.180
+ 1312  ssh -i /home/administrator/themkeys/tyui ubuntu@35.222.81.180
+ 1313  ssh -i /home/administrator/themkeys/tyui.pub ubuntu@35.222.81.180
+ 1314  ssh -i /home/administrator/themkeys/tyui.pub administrator@35.222.81.180
+ 1315  ssh -i /home/administrator/themkeys/tyui.pem administrator@35.222.81.180
+ 1316  sudo ssh -i /home/administrator/themkeys/tyui.pem administrator@35.222.81.180
+ 1317  ssh-keygen -y -f /home/administrator/themkeys/tyui.pem > /home/administrator/themkeys/tyui.pub
+ 1318  sudo ssh -i /home/administrator/themkeys/tyui.pem administrator@35.222.81.180
+ 1319  sudo ssh ubuntu@35.222.81.180
+ 1320  sudo ssh -i /home/administrator/themkeys/tyui.pem usefuldude@35.222.81.180
+ 1321  sudo ssh -i /home/administrator/themkeys/tyui.pem administrator@administrator-Latitude-7430@35.222.81.180
+ 1322  terraform apply
+ 1323  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@35.222.81.180
+ 1324  terraform -h
+ 1325  terraform output 
+ 1326  docker-compose -h
+ 1327  docker-compose create
+ 1328  clear
+ 1329  terraform output 
+ 1330  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@35.222.81.180
+ 1331  ping
+ 1332  ping 35.222.81.180
+ 1333  ping 8.8.8.8
+ 1334  ping 35.222.81.180
+ 1335  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@35.222.81.180
+ 1336  terraform output 
+ 1337  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@35.222.81.180
+ 1338  terraform output 
+ 1339  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@35.222.81.180
+ 1340  ping 8.8.8.8
+ 1341  terraform output 
+ 1342  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@35.222.81.180
+ 1343  terraform output 
+ 1344  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@35.222.81.180
+ 1345  terraform init 
+ 1346  terraform apply
+ 1347  terraform output 
+ 1348  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@35.222.81.180
+ 1349  terraform output 
+ 1350  nmap 35.222.81.180 -p 80,443
+ 1351  sudo apt  install nmap  # version 7.91+dfsg1+really7.80+dfsg1-2ubuntu0.1
+ 1352  nmap 35.222.81.180 -p 80,443
+ 1353  nmap -Pn 35.222.81.180 -p 80,443
+ 1354  nmap -Pn 35.222.81.180
+ 1355  vault
+ 1356  sudo snap install vault
+ 1357  vault
+ 1358  terraform apply
+ 1359  sudo apt  install nmap  # version 7.91+dfsg1+really7.80+dfsg1-2ubuntu0.1
+ 1360  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@35.222.81.180
+ 1361  terraform apply
+ 1362  terraform init
+ 1363  terraform apply
+ 1364  gcloud compute images list --filter="family: ubuntu-22.04 AND licenses.public=true"
+ 1365  terraform apply
+ 1366  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@34.30.55.132
+ 1367  terraform output 
+ 1368  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@34.30.55.132
+ 1369  terraform output 
+ 1370  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@34.30.55.132
+ 1371  nmap -Pn 35.222.81.180 -p 80,443,8080,8000
+ 1372  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@34.30.55.132
+ 1373  terraform output 
+ 1374  nmap -Pn 35.222.81.180 -p 80,443,8080,8000
+ 1375  terraform destroy
+ 1376  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@34.30.55.132
+ 1377  terraform init
+ 1378  terraform output 
+ 1379  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@54.86.67.221
+ 1380  terraform init
+ 1381  terraform apply 
+ 1382  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@54.86.67.221
+ 1383  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@52.86.67.221
+ 1384  ping 52.91.17.85
+ 1385  teraform output
+ 1386  terraform output
+ 1387  ping 52.91.17.85
+ 1388  terraform output
+ 1389  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@52.86.67.221
+ 1390  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@52.91.17.85
+ 1391  terraform output
+ 1392  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@52.91.17.85
+ 1393  terraform apply
+ 1394  terraform init
+ 1395  terraform apply
+ 1396  terraform destroy
+ 1397  terraform init
+ 1398  terraform apply
+ 1399  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@3.86.12.84
+ 1400  terraform outp
+ 1401  terraform output 
+ 1402  terraform destroy
+ 1403  docker-compose create
+ 1404  sudo docker-compose create
+ 1405  ansible-playbook Full_send.yml 
+ 1406  ansible ping
+ 1407  ansible-playbook -m ping all
+ 1408  ansible-playbook -m all ping
+ 1409  ansible-playbook -m -all ping
+ 1410  ansible-playbook -m all -ping
+ 1411  ansible-playbook Full_send.yml 
+ 1412  ping 35.222.81.180
+ 1413  ansible-playbook Full_send.yml 
+ 1414  ping 8.8.8.8
+ 1415  ansible-playbook Full_send.yml 
+ 1416  terraform output
+ 1417  terraform init
+ 1418  terraform destroy
+ 1419  whoami
+ 1420  pwd
+ 1421  ls
+ 1422  terraform init
+ 1423  terraform apply
+ 1424  terraform apply -lock=false
+ 1425  ls
+ 1426  pwd
+ 1427  rmdir terraform
+ 1428  cd terraform
+ 1429  ls
+ 1430  cd ..
+ 1431  ls
+ 1432  clear
+ 1433  terraform apply 
+ 1434  terraform init
+ 1435  clear
+ 1436  cd ..
+ 1437  cd network
+ 1438  direnv allow
+ 1439  sudo apt  install direnv  # version 2.25.2-2
+ 1440  cd
+ 1441  cd ~/Documents/Pete4DevOps/GitOps/terraform/network
+ 1442  direnv allow
+ 1443  terraform init
+ 1444  chmod +x troubleshoot_backend.sh
+ 1445  ./troubleshoot_backend.sh
+ 1446  cd
+ 1447  sudo apt install gnome-terminal
+ 1448  sudo apt-get update
+ 1449  sudo apt-get install ./docker-desktop-<version>-<arch>.deb
+ 1450  sudo apt-get install /home/administrator/Downloads/docker-desktop-4.28.0-amd64.deb
+ 1451  curl -s https://fluxcd.io/install.sh | sudo bash
+ 1452  flux install
+ 1453  kubectl apply -f https://github.com/fluxcd/flux2/releases/latest/download/install.yaml
+ 1454  qwertyuiop[]\
+ 1455  sudo apt-get install -y apt-transport-https ca-certificates curl
+ 1456  sudo apt-get update
+ 1457  sudo apt-get install -y kubectl
+ 1458  sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+ 1459  kubectl version --client
+ 1460  clear
+ 1461  git.closeOtherRepositories
+ 1462  git -h
+ 1463  git -help
+ 1464  git --help
+ 1465  kubectl
+ 1466  clear
+ 1467  flux bootstrap gitlab   --deploy-token-auth   --owner=https://gitlab.com/aaaaaaaaaaaaaaaaaaaaa4/flex-seal
+ 1468  flux bootstrap gitlab 
+ 1469  flux bootstrap gitlab   --deploy-token-auth   --owner=us-public-sector/cs/demos/zach-yates/tilmon-peterson/tactical-edge   --repository=flux   --branch=main   --path=clusters/local
+ 1470  flux bootstrap gitlab   --deploy-token-auth   --owner=us-public-sector/cs/demos/zach-yates/tilmon-peterson/tactical-edge
+ 1471  flux bootstrap gitlab 
+ 1472  [200~flux bootstrap gitlab 
+ 1473  cleasr
+ 1474  clear
+ 1475  cd
+ 1476  kubectl -n flux-system get pods
+ 1477  kubectl apply -f secret.yaml -n gitlab
+ 1478  cd /home/administrator/Documents/Pete4DevOps/GitOpsLab/secret.yaml
+ 1479  cd /home/administrator/Documents/Pete4DevOps/GitOpsLab
+ 1480  kubectl apply -f secret.yaml -n gitlab
+ 1481  kubectl apply -f /home/administrator/Documents/Pete4DevOps/GitOpsLab/secret.yaml -n gitlab
+ 1482  kubectl apply -f secret.yaml -n gitlab
+ 1483  flux bootstrap gitlab   --deploy-token-auth   --owner=us-public-sector/cs/demos/zach-yates/tilmon-peterson/tactical-edge   --repository=flux   --branch=main   --path=clusters/local
+ 1484  kubectl apply -f secret.yaml -n gitlab
+ 1485  whoami
+ 1486  kubectl apply -f secret-read.yaml -n flux-system
+ 1487  exit
+ 1488  gitlog
+ 1489  git log
+ 1490  terraform output 
+ 1491  terraform init
+ 1492  terraform apply 
+ 1493  terraform destroy
+ 1494  terraform apply 
+ 1495  pwd
+ 1496  ls
+ 1497  git clone
+ 1498  terraform init 
+ 1499  terraform apply
+ 1500  wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+ 1501  echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+ 1502  sudo apt update && sudo apt install vault
+ 1503  sudo apt update && sudo apt install gpg wget
+ 1504  [200~wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg~
+ 1505  wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+ 1506  echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+ 1507  sudo apt update && sudo apt install vault
+ 1508  vault
+ 1509  pgrep -f vault | xargs kill
+ 1510  config.hcl
+ 1511  mkdir -p vault/data
+ 1512  vault server -config=config.hcl
+ 1513  ls
+ 1514  cd vault
+ 1515  ls
+ 1516  cd data
+ 1517  ls
+ 1518  cd..
+ 1519  cd ..
+ 1520  cd ./vault/data
+ 1521  pgrep -f vault | xargs kill
+ 1522  cd /home/administrator/Documents/Pete4DevOps/VaultUi
+ 1523  mkdir -p vault/data
+ 1524  vault server -config=config.hcl
+ 1525  pgrep -f vault | xargs kill
+ 1526  vault server -config=config.hcl
+ 1527  vault server -ui
+ 1528  vault server ui
+ 1529  vault server ui -config
+ 1530  vault server ui -config=config.hcl
+ 1531  vault server ui -config config.hcl
+ 1532  vault server ui -config.hcl
+ 1533  vault server -config.hcl
+ 1534  vault server -h
+ 1535  vault server -config=/home/administrator/Documents/Pete4DevOps/VaultUi/config.hcl
+ 1536  git log
+ 1537  ls
+ 1538  terraform output
+ 1539  terraform init
+ 1540  terraform apply
+ 1541  terraform destroy
+ 1542  terraform destroy 
+ 1543  terraform init
+ 1544  terraform apply 
+ 1545  terraform destroy 
+ 1546  terraform init
+ 1547  terraform apply 
+ 1548  terraform init
+ 1549  terraform destroy 
+ 1550  cd
+ 1551  gcloud auth login
+ 1552  gcloud config set project terraform-alternate
+ 1553  gcloud components update
+ 1554  gcloud services enable --project=YOUR_PROJECT_ID --async $(gcloud services list --available --format="value(config.name)")
+ 1555  gcloud services enable --terraform-alternate --async $(gcloud services list --available --format="value(config.name)")
+ 1556  gcloud services enable --project=terraform-alternate --async $(gcloud services list --available --format="value(config.name)")
+ 1557  asnible-playbook Full_send.yml
+ 1558  ansible-playbook Full_send.yml
+ 1559  chmod +x enable_apis.sh
+ 1560  ./enable_apis.sh
+ 1561  whoami
+ 1562  pwd
+ 1563  ls
+ 1564  terraform init 
+ 1565  terraform apply
+ 1566  terraform destroy
+ 1567  terraform init 
+ 1568  terraform apply
+ 1569  gcloud -h
+ 1570  gcloud config set project terraform-alternate
+ 1571  gcloud auth login
+ 1572  terraform init 
+ 1573  terraform apply
+ 1574  ssh -i "/home/administrator/themkeys/tyui.pem" ubuntu@34.148.227.55
+ 1575  terraform apply
+ 1576  ssh -i "/home/administrator/themkeys/tyui.pem" ubuntu@34.148.227.55
+ 1577  gcloud compute instances get-metadata name-thing-here --format="value(metadata.ssh-keys)"
+ 1578  V
+ 1579  gcloud help -- SEARCH_TERMS
+ 1580  s
+ 1581  terraform apply 
+ 1582  ssh -i "/home/administrator/themkeys/tyui.pem" ubuntu@34.148.227.55
+ 1583  terraform output
+ 1584  ansible-playbook Full_send.yml 
+ 1585  terraform destroy 
+ 1586  terraform apply 
+ 1587  terraform init
+ 1588  terraform version
+ 1589  terraform output 
+ 1590  terraform output 
+ 1591  ssh -i "/home/administrator/themkeys/tyui.pem" ubuntu@34.148.227.55
+ 1592  ssh-keygen -f "/home/administrator/.ssh/known_hosts" -R "34.148.227.55"
+ 1593  ssh -i "/home/administrator/themkeys/tyui.pem" ubuntu@34.148.227.55
+ 1594  terraform output 
+ 1595  ansible-playbook Full_send.yml 
+ 1596  ansible-playbook Full_send.yml
+ 1597  ansible-playbook Digital_ocean_full_send.yml 
+ 1598  cd
+ 1599  sudo apt update  # Update package lists
+ 1600  sudo apt install terraform  # Install or upgrade Terraform
+ 1601  sudo snap install doctl
+ 1602  sudo snap connect doctl:kube-config
+ 1603  sudo snap connect doctl:ssh-keys :ssh-keys
+ 1604  sudo snap connect doctl:dot-docker
+ 1605  cd ~/.config
+ 1606  cd
+ 1607  ls
+ 1608  doctl auth init --context <NAME>
+ 1609  doctl auth init --context sing me in
+ 1610  doctl auth init --context sign me in
+ 1611  doctl account get
+ 1612  doctl auth init --context sign me in again
+ 1613  doctl account get
+ 1614  doctl auth ini
+ 1615  doctl auth init
+ 1616  doctl account get
+ 1617  doctl compute droplet create --region sfo2 --image ubuntu-23-10-x64 --size s-1vcpu-1gb <lil_drop_og>
+ 1618  doctl compute droplet create --region sfo2 --image ubuntu-23-10-x64 --size s-1vcpu-1gb lil_drop_og
+ 1619  doctl compute droplet create --region sfo2 --image ubuntu-23-10-x64 --size s-1vcpu-1gb lil-drop-og
+ 1620  doctl serverless install
+ 1621  doctl compute droplet delete 409339415
+ 1622  doctl auth switch -h
+ 1623  doctl compute droplet create --region sfo2 --image ubuntu-23-10-x64 --size s-1vcpu-1gb lil-drop-og
+ 1624  doctl compute droplet delete 409340807 
+ 1625  doctl compute ssh-key create dop_v1_434dc974403f3712dd60dd856af41ba8d4ba5c76aa33f996791d7bea10b01755
+ 1626  doctl compute ssh-key create <dop_v1_434dc974403f3712dd60dd856af41ba8d4ba5c76aa33f996791d7bea10b01755>
+ 1627  doctl compute ssh-key create dop_v1_434dc974403f3712dd60dd856af41ba8d4ba5c76aa33f996791d7bea10b01755
+ 1628  celar
+ 1629  clear
+ 1630  terraform init
+ 1631  terraform apply
+ 1632  terrafrom update
+ 1633  tarraform update
+ 1634  terraform update
+ 1635  terraform -h
+ 1636  terraform init
+ 1637  terraform apply 
+ 1638  terraform init
+ 1639  terraform apply 
+ 1640  terraform init
+ 1641  terraform apply 
+ 1642  terraform init
+ 1643  terraform apply 
+ 1644  terraform init
+ 1645  terraform apply 
+ 1646  terraform init
+ 1647  terraform apply 
+ 1648  terraform init
+ 1649  terraform apply 
+ 1650  terraform output
+ 1651  terraform output 
+ 1652  terraform refesh
+ 1653  terraform refresh 
+ 1654  terraform output 
+ 1655  terraform refresh 
+ 1656  terraform output 
+ 1657  terraform refresh 
+ 1658  terraform output 
+ 1659  terraform refresh 
+ 1660  terraform apply 
+ 1661  terraform refresh 
+ 1662  terraform output -debug-provider digitalocean vm_details
+ 1663  terraform output -debug-provider=digitalocean vm_details
+ 1664  terraform refresh 
+ 1665  ssh -i /home/administrator/themkeys/tyui.pub ubuntu@198.211.109.52
+ 1666  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@198.211.109.52
+ 1667  ssh ubuntu@198.211.109.52
+ 1668  ssh root@198.211.109.52
+ 1669  ssh -i /home/administrator/themkeys/tyui.pub room@198.211.109.52
+ 1670  ssh -i /home/administrator/themkeys/tyui.pub root@198.211.109.52
+ 1671  ssh -i /home/administrator/themkeys/tyui.pem root@198.211.109.52
+ 1672  terraform refresh 
+ 1673  terraform apply
+ 1674  ansible-playbook Digital_ocean_full_send.yml 
+ 1675  git init
+ 1676  git log
+ 1677  git init
+ 1678  curl "https://binaries.twingate.com/connector/setup.sh" | sudo TWINGATE_ACCESS_TOKEN="eyJhbGciOiJFUzI1NiIsImtpZCI6ImdhZEY0LUpTU1AzbkM5MVlrdnVWN2V4UjIxNE1tSWFGbVVDeXlKMHpCcmciLCJ0eXAiOiJEQVQifQ.eyJudCI6IkFOIiwiYWlkIjoiMjUzNzUzIiwiZGlkIjoiMTMyMzU3MSIsImp0aSI6Ijc2Yzc1MTc5LWNkN2QtNDY2YS04MGNkLWZhMWE5ZGI0NjY1MCIsImlzcyI6InR3aW5nYXRlIiwiYXVkIjoiY2xhc3Nwcm9qZWN0cGV0ZXJzb24iLCJleHAiOjE3MTE2NDE0ODgsImlhdCI6MTcxMTYzNzg4OCwidmVyIjoiNCIsInRpZCI6Ijc4Mzg5Iiwicm53IjoxNzExNjM4MjA3LCJybmV0aWQiOiIxMDEwMDgifQ.a_QLy0BeIa-QXWBDkzjLDrjQEAvN-sa5nuTaBrTu_sfRLMFFafFW8VyWAt5PZU9rqD5h1rrHXCNwCtiy2CJ7iQ" TWINGATE_REFRESH_TOKEN="xppx1tMSlb6-53j8DI9F66jfgHXiNLnQQdxlxjYlido56KzWOm5VcTbtMMniQTVGxevngCb68NWOH4CzWdRE2uTSIiree0gVaV14zVNrvcaC3j6-3aLEaoL7Lv5pbDzYUXfxmw" TWINGATE_NETWORK="classprojectpeterson" bash
+ 1679  curl -s https://binaries.twingate.com/client/linux/install.sh | sudo bash
+ 1680  sudo twingate setup
+ 1681  classprojectpeterson.twingate.com
+ 1682  sudo twingate setup
+ 1683  curl -s https://binaries.twingate.com/client/linux/install.sh | sudo bash
+ 1684  systemctl status systemd-resolved
+ 1685  cd
+ 1686  sudo twingate setup
+ 1687  apt update && apt -y install ca-certificates wget net-tools gnupg
+ 1688  wget https://as-repository.openvpn.net/as-repo-public.asc -qO /etc/apt/trusted.gpg.d/as-repository.asc
+ 1689  sudo apt update && apt -y install ca-certificates wget net-tools gnupg
+ 1690  sudo su
+ 1691  aws configgure
+ 1692  aws configure
+ 1693  terraform destroy 
+ 1694  teraform destroy
+ 1695  terraform destroy 
+ 1696  terraform destroy 
+ 1697  aws config
+ 1698  aws configure
+ 1699  terraform destroy
+ 1700  hwoami
+ 1701  whoami
+ 1702  pwd
+ 1703  ls
+ 1704  aws configure get region
+ 1705  aws ec2 describe-vpcs --vpc-ids vpc-024b2a721e710c568
+ 1706  aws sts get-caller-identity
+ 1707  aws configure
+ 1708  aws sts get-caller-identity
+ 1709  terraform init 
+ 1710  terraform apply
+ 1711  aws sts get-caller-identity
+ 1712  terraform init 
+ 1713  terraform apply 
+ 1714  ls
+ 1715  git remote add origin https://github.com/devopscourse112/project_scenario.git
+ 1716  git push -u origin main
+ 1717  aws sts get-caller-identity
+ 1718  aws ec2 describe-security-groups
+ 1719  aws ec2 describe-vpcs
+ 1720  terraform init 
+ 1721  terraform apply 
+ 1722  aws ec2 import-key-pair --key-name tyui --public-key-material file:///home/administrator/themkeys/tyui.pub
+ 1723  terraform init 
+ 1724  terraform apply 
+ 1725  cd ProjectScenario/docker_boogaloo_numba_twoo
+ 1726  cd docker_boogaloo_numba_twoo
+ 1727  ansible-playbook Full_send.yml 
+ 1728  terraform output 
+ 1729  cd ..
+ 1730  terraform output 
+ 1731  aws configure
+ 1732  terraform init 
+ 1733  aws ec2 import-key-pair --key-name tyui --public-key-material file:///home/administrator/themkeys/tyui.pub
+ 1734  terraform init 
+ 1735  terraform output 
+ 1736  terraform destroy 
+ 1737  terraform init 
+ 1738  terraform apply 
+ 1739  cd /home/administrator/Documents/Pete4DevOps/ProjectScenario/docker_boogaloo_numba_twoo
+ 1740  ansible-playbook Full_send.yml 
+ 1741  git remote add origin https://github.com/devopscourse112/project_scenario.git
+ 1742  git push -u origin main
+ 1743  git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch .terraform/providers/registry.terraform.io/hashicorp/aws/5.43.0/linux_amd64/terraform-provider-aws_v5.43.0_x5' --prune-empty --tag-name-filter cat -- --all
+ 1744  cd ..
+ 1745  git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch .terraform/providers/registry.terraform.io/hashicorp/aws/5.43.0/linux_amd64/terraform-provider-aws_v5.43.0_x5' --prune-empty --tag-name-filter cat -- --all
+ 1746  git push -f origin main
+ 1747  ls
+ 1748  cd ProjectScenario
+ 1749  git reset --soft HEAD^
+ 1750  git push -f origin main
+ 1751  git reflog
+ 1752  git reset --hard 3eb77c9
+ 1753  git push -f origin main
+ 1754  ls
+ 1755  cd Team Peterson
+ 1756  cd Team
+ 1757  ls
+ 1758  cd 'Team Peterson'
+ 1759  ls
+ 1760  cd Terraform_Files
+ 1761  ls
+ 1762  terraform output
+ 1763  terraform output 
+ 1764  terraform init
+ 1765  terraform output 
+ 1766  terraform init
+ 1767  terraform output 
+ 1768  ssh -i /home/administrator/themkeys/tyui.pub ubuntu@3.22.188.170
+ 1769  ssh -i /home/administrator/themkeys/tyui.pem  ubuntu@3.22.188.170
+ 1770  cd
+ 1771  ls
+ 1772  ansible-playbook Full_send.yml 
+ 1773  cd ..
+ 1774  ls
+ 1775  cd Terraform_Files
+ 1776  ls
+ 1777  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@3.22.188.170
+ 1778  terraform output 
+ 1779  ls
+ 1780  cd 'Team Peterson'
+ 1781  ls
+ 1782  cd Terraform_File
+ 1783  cd Terraform_Files
+ 1784  ls
+ 1785  terraform output 
+ 1786  clear
+ 1787  terraform output 
+ 1788  whoami
+ 1789  pwd
+ 1790  ls
+ 1791  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@3.22.188.170
+ 1792  git push origin main
+ 1793  git push main
+ 1794  git push origin main
+ 1795  git push --force-with-lease origin main
+ 1796  git push --force origin main
+ 1797  git reset HEAD^
+ 1798  git reset --soft HEAD^
+ 1799  git log -10
+ 1800  git log
+ 1801  clear
+ 1802  terraform output 
+ 1803  ssh -i /home/administrator/themkeys/tyui.pub ubuntu@3.22.188.170
+ 1804  git reset --mixed
+ 1805  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@3.22.188.170
+ 1806  ssh -i "tyui.pem" ubuntu@ec2-3-132-48-243.us-east-2.compute.amazonaws.com
+ 1807  ssh -i "/home/administrator/themkeys/tyui.pem" ubuntu@ec2-3-132-48-243.us-east-2.compute.amazonaws.com
+ 1808  ansible-playbook Full_install.yml 
+ 1809  ansible-playbook Full_install.yml
+ 1810  terraform output 
+ 1811  ssh -i "/home/administrator/themkeys/tyui.pem" ubuntu@ec2-3-132-48-243.us-east-2.compute.amazonaws.com
+ 1812  terraform destroy 
+ 1813  terraform init 
+ 1814  terraform apply
+ 1815  terraform init 
+ 1816  terraform apply
+ 1817  terraform init 
+ 1818  terraform apply
+ 1819  terraform init 
+ 1820  terraform apply
+ 1821  terraform init 
+ 1822  terraform apply
+ 1823  ssh -i /path/to/your/private-key.pem ubuntu@13.59.34.85
+ 1824  ssh -i /path/to/your/private-key.pub ubuntu@13.59.34.85
+ 1825  ssh -i /home/administrator/themkeys/tyui.pub ubuntu@13.59.34.85
+ 1826  ssh -i /home/administrator/themkeys/tyui.pem ubuntu@13.59.34.85
+ 1827  terraform destroy 
+ 1828  terraform init 
+ 1829  terraform apply
+ 1830  ls
+ 1831  ansible-playbook Full_install.yml
+ 1832  ansible-playbook Full_send.yml 
+ 1833  whoami
+ 1834  pwd
+ 1835  ls
+ 1836  pwd
+ 1837  ls
+ 1838  ansible-playbook Full_install.yml 
+ 1839  ansible-playbook docker_tron.yml 
+ 1840  docker-compose -h
+ 1841  docker-compose build -h
+ 1842  docker-compose -help
+ 1843  docker-compose --help
+ 1844  docker-compose build
+ 1845  docker-compose -man
+ 1846  docker-compose --man
+ 1847  docker-compose man
+ 1848  docker-compose build -f docker_tron.yml
+ 1849  docker-compose build -file docker_tron.yml
+ 1850  docker-compose build -env-file docker_tron.yml
+ 1851  docker-compose build --env-file docker_tron.yml
+ 1852  docker-compose build -f
+ 1853  docker-compose build --file
+ 1854  docker-compose run
+ 1855  docker-compose run docker_tron.yml
+ 1856  docker-compose run
+ 1857  docker-compose build
+ 1858  sudo docker ps
+ 1859  docker-compose run
+ 1860  docker-compose -run
+ 1861  docker-compose
+ 1862  docker-compose start
+ 1863  sudo docker-compose start
+ 1864  ls
+ 1865  pip install pyautogui
+ 1866  sudo apt install python3-pip
+ 1867  pip install pyautogui
+ 1868  nano clicker.py
+ 1869  history
+ 1870  exit
+ 1871  aws cli
+ 1872  aws sts get-caller-identity
+ 1873  cd ..
+ 1874  mkdir learn-terraform-docker-container
+ 1875  cd learn-terraform-docker-container
+ 1876  sudo tee main.tf<<EOF
+ 1877  terraform {
+ 1878    required_providers {
+ 1879      docker = {
+ 1880        source  = "kreuzwerker/docker"
+ 1881        version = "~> 3.0.1"
+ 1882      }
+ 1883    }
+ 1884  }
+ 1885   
+ 1886  provider "docker" {}
+ 1887   
+ 1888  resource "docker_image" "nginx" {
+ 1889    name         = "nginx"
+ 1890    keep_locally = false
+ 1891  }
+ 1892   
+ 1893  resource "docker_container" "nginx" {
+ 1894    image = docker_image.nginx.image_id
+ 1895    name  = "tutorial"
+ 1896   
+ 1897    ports {
+ 1898      internal = 80
+ 1899      external = 8000
+ 1900    }
+ 1901  }
+ 1902  EOF
+ 1903  terraform init 
+ 1904  sudo terraform apply
+ 1905  curl http://localhost:8000
+ 1906  sudo docker ps
+ 1907  sudo terraform destroy
+ 1908  sudo docker ps
+ 1909  sudo terraform destroy
+ 1910  git clone https://github.com/rancher/quickstart
+ 1911  cd Rancher
+ 1912  ls
+ 1913  git clone https://github.com/rancher/quickstart
+ 1914  ls
+ 1915  cd quickstart/rancher/aws
+ 1916  ls
+ 1917  terraform init 
+ 1918  terraform apply --auto-approve
+ 1919  terraform init 
+ 1920  terraform apply --auto-approve
+ 1921  terraform destroy 
+ 1922  exit
+ 1923  ls
+ 1924  rmdir learn-terraform-provision-eks-cluster
+ 1925  sudo rmdir learn-terraform-provision-eks-cluster
+ 1926  rm -r learn-terraform-provision-eks-cluster
+ 1927  sudorm -r learn-terraform-provision-eks-cluster
+ 1928  clear
+ 1929  git clone https://github.com/hashicorp/learn-terraform-provision-eks-cluster
+ 1930  cd learn-terraform-provision-eks-cluster
+ 1931  terraform init
+ 1932  terraform apply
+ 1933  terraform output
+ 1934  aws eks --region $us-east-2 update-kubeconfig     --name $education-eks-fNC14dUO
+ 1935  aws eks --region $-raw us-east-2 update-kubeconfig     --name $-raw education-eks-fNC14dUO
+ 1936  aws eks --region $(terraform output -raw region) update-kubeconfig     --name $(terraform output -raw cluster_name)
+ 1937  V
+ 1938  kubectl cluster-info
+ 1939  kubectl cluster-info dump
+ 1940  terraform init
+ 1941  terraform apply --auto-approve
+ 1942  kubectl cluster-info
+ 1943  kubectl cluster-info dump
+ 1944  terraform destroy 
+ 1945  terraform init
+ 1946  terraform apply --auto-approve
+ 1947  aws eks --region $(terraform output -raw region) update-kubeconfig     --name $(terraform output -raw cluster_name)
+ 1948  kubectl cluster-info
+ 1949  kube ctl version
+ 1950  kubectl version
+ 1951  exit
+ 1952  cd
+ 1953  docker stop
+ 1954  sudo docker ps
+ 1955  terraform desclear
+ 1956  terraform destroy 
+ 1957  docker ps
+ 1958  sudo docker ps
+ 1959  clear
+ 1960  exit
+ 1961  exit
+ 1962  cd
+ 1963  sudo docker ps
+ 1964  sudo docker-compose ps
+ 1965  cd
+ 1966  git init
+ 1967  cd
+ 1968  ls
+ 1969  terraform init 
+ 1970  terraform plan
+ 1971  terraform init 
+ 1972  terraform plan
+ 1973  terraform test -h
+ 1974  terraform refresh 
+ 1975  terraform init
+ 1976  terraform plan -h
+ 1977  terraform plan
+ 1978  terraform apply
+ 1979  terraform destroy
+ 1980  clear
+ 1981  history > history.txt

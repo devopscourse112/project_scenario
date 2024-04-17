@@ -1,0 +1,75 @@
+# Configure variables
+variable "region" {
+  description = "Region where resources will be created"
+}
+
+variable "gke_num_nodes" {
+  default     = 2
+  description = "Number of GKE nodes"
+}
+
+# Persistent Disk for Boot
+resource "google_compute_disk" "pd_storage" {
+  name         = "my-gke-pd"  # Replace with a descriptive name
+  type         = "pd-standard"  # Choose "pd-standard" for HDD (potentially better on free tier)
+  zone          = var.region
+  size         = 5           # Start small (e.g., 10 GB) to stay within potential free tier quota
+
+  # Optional: Configure encryption for the PD (recommended)
+  # encryption_key {
+  #   kms_key_name = "projects/your-project-id/locations/global/keyRings/your-keyring/cryptoKeys/your-key"
+  # }
+}
+
+resource "google_compute_image" "bypeterson-ubuntu-cloud-gke-image" {
+  name         = "bypeterson-ubuntu-cloud-gke-image"  #this can be random but must be also pasted in the resource line here and below in full
+  source_image = "ubuntu-cloud/ubuntu-2004-lts"  # adjust to proper image
+  family       = "ubuntu-cloud"
+}
+
+  # Optional: Customize the image with scripts or packages using guest_os_features block
+  # https://www.terraform.io/docs/providers/google/r/compute_image.html#guest_os_features
+
+# GKE Node Pool with User Data
+resource "google_container_node_pool" "primary_nodes" {
+  name       = google_container_cluster.primary.name  # Reference cluster name from your main Terraform
+  location   = var.region
+  cluster    = google_container_cluster.primary.name  # Reference cluster name from your main Terraform
+
+  version = data.google_container_engine_versions.gke_version.release_channel_latest_version["STABLE"]
+  node_count = var.gke_num_nodes
+
+  node_config {
+    oauth_scopes = [
+      "https://www.googleapis.com/auth/logging.write",
+      "https://www.googleapis.com/auth/monitoring",
+    ]
+
+    labels = {
+      env = var.project_id
+    }
+
+    # Use the custom image created earlier (optional)
+    machine_type = "e2-micro"  # Choose appropriate machine type
+    boot_disk {
+  initialize_params {
+    image = google_compute_image.bypeterson-ubuntu-cloud-gke-image.self_link
+  }
+}
+
+    # User data script to format and configure the persistent disk
+    metadata = {
+      user-data = base64encode(file("gke_user_data.sh"))
+    }
+  }
+}
+
+# Outputs (optional)
+output "pd_name" {
+  value = google_compute_disk.pd_storage.name
+}
+
+output "node_pool_name" {
+  value = google_container_node_pool.primary_nodes.name
+}
+
